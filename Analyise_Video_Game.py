@@ -87,7 +87,7 @@ National_sales = df.groupby(["Region" , "Country"])["National Sales"].sum().rese
 # plt.legend(title="Region", bbox_to_anchor=(1.05, 1), loc='upper left')
 # plt.tight_layout()
 # plt.show()
-
+# hello zaid here
 # create a line chart
 plt.plot(df["Year"], df["National Sales"], marker='o', linestyle='-', color='b' , label='National Sales')
 plt.plot(df["Year"], df["Global Sales"], marker='x', linestyle='--', color='g', label='Global Sales')
