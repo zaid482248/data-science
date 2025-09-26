@@ -43,6 +43,9 @@ categorize_column(df , 'Vote_Average' , label)
 # print(df.isna().sum())
 # print(df.dropna(inplace=True))
 
+
+
+print("Hello world")
 # print(df.isna().sum())
 df.dropna(inplace=True)  
 
