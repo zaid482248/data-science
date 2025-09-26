@@ -73,7 +73,7 @@ print("prediction of this model is " , accuracy_score(Y_test , logic.predict(X_t
 plot_decision_regions(X_train , Y_train.values , clf=logic , legend=2)
 
 plt.show()
-
+ 
 
 
 
